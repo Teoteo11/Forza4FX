@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="784.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox fx:id="horizontal" layoutX="10.0" layoutY="60.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: blue;">
+         <children>
+            <VBox fx:id="vertical1" onMouseClicked="#click1" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical2" layoutX="10.0" layoutY="10.0" onMouseClicked="#click2" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical3" layoutX="110.0" layoutY="10.0" onMouseClicked="#click3" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical4" layoutX="10.0" layoutY="10.0" onMouseClicked="#click4" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical5" layoutX="210.0" layoutY="10.0" onMouseClicked="#click5" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical6" layoutX="310.0" layoutY="10.0" onMouseClicked="#click6" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vertical7" layoutX="410.0" layoutY="10.0" onMouseClicked="#click7" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Circle fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Text fill="#1bff00" layoutX="22.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FORZA 4" wrappingWidth="124.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="654.0" layoutY="8.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="38.0" prefWidth="114.0" text="New Game">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ToggleButton fx:id="player1" layoutX="242.0" layoutY="11.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="114.0" text="PLAYER 1" textFill="#e40606">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ToggleButton>
+      <ToggleButton fx:id="player2" layoutX="413.0" layoutY="11.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="114.0" text="PLAYER 2" textFill="#adad02">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </ToggleButton>
+   </children>
+</Pane>
